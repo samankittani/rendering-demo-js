@@ -1,16 +1,22 @@
 {
   "name": "rendering-3d-pure",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx vite"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "author": "Saman Kittani",
+  "license": "MIT",
+  "type": "module",
   "description": "",
   "dependencies": {
-    "express": "^4.21.2"
+    "mathjs": "^14.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "eslint": "^9.20.0",
+    "globals": "^15.14.0",
+    "vite": "^6.1.0"
   }
 }
